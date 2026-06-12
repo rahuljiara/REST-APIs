@@ -1,11 +1,12 @@
 const express = require('express')
 
+const productRouter = require('./routes/productRouter')
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.get("/", (req, res, next) => {
-  res.send("Server Started!");
-})
+// seting api at - /api/products to get json data
+app.use("/api/products", productRouter)
 
 const startServer = async () => {
   try {
