@@ -1,4 +1,6 @@
+const env = require("dotenv").config();
 const express = require('express')
+const connectDB = require("./config/db")
 
 const productRouter = require('./routes/productRouter')
 
@@ -10,11 +12,12 @@ app.use("/api/products", productRouter)
 
 const startServer = async () => {
   try {
+    await connectDB();
     app.listen(PORT, () => {
       console.log(`Server started at - http://localhost:${PORT}`);
     })
   } catch (error) {
-    console.log(error);
+    console.log("Error while connecting to database:", error.message);
   }
 }
 
