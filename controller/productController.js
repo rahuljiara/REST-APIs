@@ -6,7 +6,7 @@ exports.getProduct = async (req, res, next) => {
     /* Searching in database */
 
     // extract all fields from query
-    const { brand, isFeatured, category, subCategory, color, name } = req.query;
+    const { brand, isFeatured, category, subCategory, color, name, sort } = req.query;
 
     // Blank object to store the key and value to search
     const queryObject = {}
@@ -38,10 +38,22 @@ exports.getProduct = async (req, res, next) => {
       queryObject.name = { $regex: name, $options: 'i' };
     }
 
+    // Storing data in variable to find all data
+    let apiData = ProductModel.find(queryObject);
 
+    // if sort is written in url then only run this 
+    if (sort) {
+      // replace , with space. because we sort like .sort(x y z ...)
+      const fixSort = sort.replaceAll(",", " ");
+      queryObject.sort = fixSort;
+      console.log("sort =", JSON.stringify(sort));
+      console.log("fixSort =", JSON.stringify(fixSort));
+      // .sort(x y z ...) will add when user types sort=x,y,z,... else only find()
+      apiData = apiData.sort(fixSort);
+    }
 
     // Geting all data from the database with matched query
-    const products = await ProductModel.find(queryObject);
+    const products = await apiData;
     res.status(200).json({ products });
   } catch (error) {
     res.status(500).json({
@@ -62,8 +74,9 @@ exports.getProductTesting = async (req, res, next) => {
     });
   
     */
-    // dynamic filtering method using query 
-    const products = await ProductModel.find(req.query);
+    // sorting with .sort() method of mongoose ; 1-> ascendeing(asc), -1-> descending(desc)
+    // name -> sort in ascending order,  -name -> sort name in descending order
+    const products = await ProductModel.find(req.query).sort("-name price");
     res.status(200).json({ products });
 
   }
