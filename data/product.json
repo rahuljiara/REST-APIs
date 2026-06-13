@@ -1,0 +1,1582 @@
+[
+  {
+    "name": "iPhone 15 Pro Max",
+    "description": "Apple flagship smartphone with A17 Pro chip and titanium body.",
+    "category": "Electronics",
+    "subCategory": "Smartphones",
+    "brand": "Apple",
+    "price": 159999,
+    "images": ["https://example.com/images/iphone15promax.jpg"],
+    "attributes": {
+      "color": ["Black Titanium", "Blue Titanium"],
+      "size": ["256GB", "512GB"],
+      "material": "Titanium",
+      "weight": "221g"
+    },
+    "tags": ["apple", "iphone", "5g", "flagship"],
+    "rating": {
+      "average": 4.8,
+      "totalReviews": 1245
+    },
+    "seller": {
+      "id": "seller001",
+      "name": "Apple Store"
+    },
+    "isFeatured": true
+  },
+  {
+    "name": "Samsung Galaxy S24 Ultra",
+    "description": "Premium Samsung smartphone with S-Pen and AI features.",
+    "category": "Electronics",
+    "subCategory": "Smartphones",
+    "brand": "Samsung",
+    "price": 129999,
+    "images": ["https://example.com/images/s24ultra.jpg"],
+    "attributes": {
+      "color": ["Titanium Gray"],
+      "size": ["256GB", "512GB"],
+      "material": "Aluminum",
+      "weight": "232g"
+    },
+    "tags": ["samsung", "android", "5g"],
+    "rating": {
+      "average": 4.7,
+      "totalReviews": 986
+    },
+    "seller": {
+      "id": "seller002",
+      "name": "Samsung Store"
+    },
+    "isFeatured": true
+  },
+  {
+    "name": "Google Pixel 9 Pro",
+    "description": "Google flagship with advanced AI camera features.",
+    "category": "Electronics",
+    "subCategory": "Smartphones",
+    "brand": "Google",
+    "price": 99999,
+    "images": ["https://example.com/images/pixel9pro.jpg"],
+    "attributes": {
+      "color": ["Obsidian"],
+      "size": ["256GB"],
+      "material": "Glass",
+      "weight": "199g"
+    },
+    "tags": ["google", "pixel", "camera"],
+    "rating": {
+      "average": 4.6,
+      "totalReviews": 654
+    },
+    "seller": {
+      "id": "seller003",
+      "name": "Google Store"
+    },
+    "isFeatured": false
+  },
+  {
+    "name": "OnePlus 12",
+    "description": "Fast and smooth flagship smartphone from OnePlus.",
+    "category": "Electronics",
+    "subCategory": "Smartphones",
+    "brand": "OnePlus",
+    "price": 64999,
+    "images": ["https://example.com/images/oneplus12.jpg"],
+    "attributes": {
+      "color": ["Silky Black"],
+      "size": ["256GB"],
+      "material": "Glass",
+      "weight": "220g"
+    },
+    "tags": ["oneplus", "android", "gaming"],
+    "rating": {
+      "average": 4.5,
+      "totalReviews": 712
+    },
+    "seller": {
+      "id": "seller004",
+      "name": "OnePlus Store"
+    },
+    "isFeatured": true
+  },
+  {
+    "name": "Xiaomi 14 Ultra",
+    "description": "High-end smartphone with Leica camera system.",
+    "category": "Electronics",
+    "subCategory": "Smartphones",
+    "brand": "Xiaomi",
+    "price": 89999,
+    "images": ["https://example.com/images/xiaomi14ultra.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["512GB"],
+      "material": "Aluminum",
+      "weight": "224g"
+    },
+    "tags": ["xiaomi", "camera", "android"],
+    "rating": {
+      "average": 4.6,
+      "totalReviews": 421
+    },
+    "seller": {
+      "id": "seller005",
+      "name": "Xiaomi Store"
+    },
+    "isFeatured": false
+  },
+  {
+    "name": "Nothing Phone 2",
+    "description": "Unique transparent design with Glyph interface.",
+    "category": "Electronics",
+    "subCategory": "Smartphones",
+    "brand": "Nothing",
+    "price": 44999,
+    "images": ["https://example.com/images/nothingphone2.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["256GB"],
+      "material": "Glass",
+      "weight": "201g"
+    },
+    "tags": ["nothing", "android", "glyph"],
+    "rating": {
+      "average": 4.4,
+      "totalReviews": 398
+    },
+    "seller": {
+      "id": "seller006",
+      "name": "Nothing Store"
+    },
+    "isFeatured": false
+  },
+  {
+    "name": "Vivo X100 Pro",
+    "description": "Flagship camera smartphone with ZEISS optics.",
+    "category": "Electronics",
+    "subCategory": "Smartphones",
+    "brand": "Vivo",
+    "price": 89999,
+    "images": ["https://example.com/images/vivox100pro.jpg"],
+    "attributes": {
+      "color": ["Blue"],
+      "size": ["512GB"],
+      "material": "Glass",
+      "weight": "225g"
+    },
+    "tags": ["vivo", "camera", "zeiss"],
+    "rating": {
+      "average": 4.7,
+      "totalReviews": 512
+    },
+    "seller": {
+      "id": "seller007",
+      "name": "Vivo Store"
+    },
+    "isFeatured": true
+  },
+  {
+    "name": "Oppo Find X7 Ultra",
+    "description": "Premium smartphone with powerful camera hardware.",
+    "category": "Electronics",
+    "subCategory": "Smartphones",
+    "brand": "Oppo",
+    "price": 94999,
+    "images": ["https://example.com/images/findx7ultra.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["512GB"],
+      "material": "Glass",
+      "weight": "221g"
+    },
+    "tags": ["oppo", "camera", "android"],
+    "rating": {
+      "average": 4.6,
+      "totalReviews": 332
+    },
+    "seller": {
+      "id": "seller008",
+      "name": "Oppo Store"
+    },
+    "isFeatured": false
+  },
+  {
+    "name": "Motorola Edge 50 Ultra",
+    "description": "Premium Motorola device with AI-powered features.",
+    "category": "Electronics",
+    "subCategory": "Smartphones",
+    "brand": "Motorola",
+    "price": 54999,
+    "images": ["https://example.com/images/edge50ultra.jpg"],
+    "attributes": {
+      "color": ["Peach Fuzz"],
+      "size": ["256GB"],
+      "material": "Vegan Leather",
+      "weight": "197g"
+    },
+    "tags": ["motorola", "android", "premium"],
+    "rating": {
+      "average": 4.4,
+      "totalReviews": 289
+    },
+    "seller": {
+      "id": "seller009",
+      "name": "Motorola Store"
+    },
+    "isFeatured": false
+  },
+  {
+    "name": "Realme GT 6",
+    "description": "Performance-focused smartphone for gamers.",
+    "category": "Electronics",
+    "subCategory": "Smartphones",
+    "brand": "Realme",
+    "price": 39999,
+    "images": ["https://example.com/images/realmegt6.jpg"],
+    "attributes": {
+      "color": ["Silver"],
+      "size": ["256GB"],
+      "material": "Glass",
+      "weight": "199g"
+    },
+    "tags": ["realme", "gaming", "android"],
+    "rating": {
+      "average": 4.3,
+      "totalReviews": 274
+    },
+    "seller": {
+      "id": "seller010",
+      "name": "Realme Store"
+    },
+    "isFeatured": false
+  },
+  {
+    "name": "Samsung 1.5 Ton 5 Star Inverter AC",
+    "description": "Energy efficient split air conditioner.",
+    "category": "Electronics",
+    "subCategory": "Air Conditioners",
+    "brand": "Samsung",
+    "price": 45999,
+    "images": ["https://example.com/images/samsung-ac.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["1.5 Ton"],
+      "material": "Plastic",
+      "weight": "35kg"
+    },
+    "tags": ["ac", "inverter", "cooling"],
+    "rating": { "average": 4.5, "totalReviews": 512 },
+    "seller": { "id": "seller011", "name": "Samsung Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "LG Dual Inverter AC 1.5 Ton",
+    "description": "Fast cooling inverter air conditioner.",
+    "category": "Electronics",
+    "subCategory": "Air Conditioners",
+    "brand": "LG",
+    "price": 48999,
+    "images": ["https://example.com/images/lg-ac.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["1.5 Ton"],
+      "material": "Plastic",
+      "weight": "34kg"
+    },
+    "tags": ["ac", "lg", "cooling"],
+    "rating": { "average": 4.6, "totalReviews": 689 },
+    "seller": { "id": "seller012", "name": "LG Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Bajaj Air Cooler 90L",
+    "description": "Large capacity desert air cooler.",
+    "category": "Electronics",
+    "subCategory": "Air Coolers",
+    "brand": "Bajaj",
+    "price": 11999,
+    "images": ["https://example.com/images/bajaj-cooler.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["90L"],
+      "material": "Plastic",
+      "weight": "12kg"
+    },
+    "tags": ["cooler", "summer"],
+    "rating": { "average": 4.3, "totalReviews": 234 },
+    "seller": { "id": "seller013", "name": "Bajaj Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Havells Desert Cooler 75L",
+    "description": "Powerful air throw and large tank.",
+    "category": "Electronics",
+    "subCategory": "Air Coolers",
+    "brand": "Havells",
+    "price": 13999,
+    "images": ["https://example.com/images/havells-cooler.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["75L"],
+      "material": "Plastic",
+      "weight": "11kg"
+    },
+    "tags": ["cooler", "havells"],
+    "rating": { "average": 4.4, "totalReviews": 185 },
+    "seller": { "id": "seller014", "name": "Havells Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Orient Electric Ceiling Fan",
+    "description": "1200mm high speed ceiling fan.",
+    "category": "Electronics",
+    "subCategory": "Fans",
+    "brand": "Orient",
+    "price": 2499,
+    "images": ["https://example.com/images/orient-fan.jpg"],
+    "attributes": {
+      "color": ["Brown"],
+      "size": ["1200mm"],
+      "material": "Metal",
+      "weight": "4kg"
+    },
+    "tags": ["fan", "ceiling-fan"],
+    "rating": { "average": 4.4, "totalReviews": 431 },
+    "seller": { "id": "seller015", "name": "Orient Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Crompton High Speed Fan",
+    "description": "Energy efficient ceiling fan.",
+    "category": "Electronics",
+    "subCategory": "Fans",
+    "brand": "Crompton",
+    "price": 2799,
+    "images": ["https://example.com/images/crompton-fan.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["1200mm"],
+      "material": "Metal",
+      "weight": "4kg"
+    },
+    "tags": ["fan", "crompton"],
+    "rating": { "average": 4.5, "totalReviews": 578 },
+    "seller": { "id": "seller016", "name": "Crompton Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Sony Bravia 55 Inch 4K TV",
+    "description": "Ultra HD Smart Google TV.",
+    "category": "Electronics",
+    "subCategory": "Televisions",
+    "brand": "Sony",
+    "price": 69999,
+    "images": ["https://example.com/images/sony-tv.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["55 Inch"],
+      "material": "Plastic",
+      "weight": "16kg"
+    },
+    "tags": ["tv", "4k", "smart-tv"],
+    "rating": { "average": 4.8, "totalReviews": 932 },
+    "seller": { "id": "seller017", "name": "Sony Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Samsung 43 Inch Crystal UHD TV",
+    "description": "4K Smart Television.",
+    "category": "Electronics",
+    "subCategory": "Televisions",
+    "brand": "Samsung",
+    "price": 39999,
+    "images": ["https://example.com/images/samsung-tv.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["43 Inch"],
+      "material": "Plastic",
+      "weight": "11kg"
+    },
+    "tags": ["tv", "samsung", "4k"],
+    "rating": { "average": 4.6, "totalReviews": 712 },
+    "seller": { "id": "seller018", "name": "Samsung Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Whirlpool 340L Refrigerator",
+    "description": "Double door frost free refrigerator.",
+    "category": "Electronics",
+    "subCategory": "Refrigerators",
+    "brand": "Whirlpool",
+    "price": 32999,
+    "images": ["https://example.com/images/whirlpool-fridge.jpg"],
+    "attributes": {
+      "color": ["Silver"],
+      "size": ["340L"],
+      "material": "Steel",
+      "weight": "60kg"
+    },
+    "tags": ["fridge", "refrigerator"],
+    "rating": { "average": 4.5, "totalReviews": 403 },
+    "seller": { "id": "seller019", "name": "Whirlpool Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "LG 260L Refrigerator",
+    "description": "Smart inverter frost free fridge.",
+    "category": "Electronics",
+    "subCategory": "Refrigerators",
+    "brand": "LG",
+    "price": 27999,
+    "images": ["https://example.com/images/lg-fridge.jpg"],
+    "attributes": {
+      "color": ["Silver"],
+      "size": ["260L"],
+      "material": "Steel",
+      "weight": "55kg"
+    },
+    "tags": ["fridge", "lg"],
+    "rating": { "average": 4.6, "totalReviews": 526 },
+    "seller": { "id": "seller020", "name": "LG Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "IFB Front Load Washing Machine",
+    "description": "8kg fully automatic washing machine.",
+    "category": "Electronics",
+    "subCategory": "Washing Machines",
+    "brand": "IFB",
+    "price": 35999,
+    "images": ["https://example.com/images/ifb-washing.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["8kg"],
+      "material": "Steel",
+      "weight": "62kg"
+    },
+    "tags": ["washing-machine"],
+    "rating": { "average": 4.5, "totalReviews": 320 },
+    "seller": { "id": "seller021", "name": "IFB Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Bosch Front Load Washing Machine",
+    "description": "9kg premium washing machine.",
+    "category": "Electronics",
+    "subCategory": "Washing Machines",
+    "brand": "Bosch",
+    "price": 42999,
+    "images": ["https://example.com/images/bosch-washing.jpg"],
+    "attributes": {
+      "color": ["Silver"],
+      "size": ["9kg"],
+      "material": "Steel",
+      "weight": "68kg"
+    },
+    "tags": ["washing-machine", "bosch"],
+    "rating": { "average": 4.7, "totalReviews": 440 },
+    "seller": { "id": "seller022", "name": "Bosch Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Philips Air Fryer XL",
+    "description": "Healthy cooking with less oil.",
+    "category": "Electronics",
+    "subCategory": "Kitchen Appliances",
+    "brand": "Philips",
+    "price": 9999,
+    "images": ["https://example.com/images/philips-airfryer.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["6.2L"],
+      "material": "Plastic",
+      "weight": "5kg"
+    },
+    "tags": ["airfryer", "kitchen"],
+    "rating": { "average": 4.7, "totalReviews": 821 },
+    "seller": { "id": "seller023", "name": "Philips Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Prestige Induction Cooktop",
+    "description": "Energy efficient induction stove.",
+    "category": "Electronics",
+    "subCategory": "Kitchen Appliances",
+    "brand": "Prestige",
+    "price": 3499,
+    "images": ["https://example.com/images/prestige-induction.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["Standard"],
+      "material": "Glass",
+      "weight": "2.5kg"
+    },
+    "tags": ["induction", "cooktop"],
+    "rating": { "average": 4.3, "totalReviews": 712 },
+    "seller": { "id": "seller024", "name": "Prestige Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Dyson V15 Vacuum Cleaner",
+    "description": "Cordless premium vacuum cleaner.",
+    "category": "Electronics",
+    "subCategory": "Vacuum Cleaners",
+    "brand": "Dyson",
+    "price": 59999,
+    "images": ["https://example.com/images/dyson-v15.jpg"],
+    "attributes": {
+      "color": ["Yellow"],
+      "size": ["Standard"],
+      "material": "Plastic",
+      "weight": "3kg"
+    },
+    "tags": ["vacuum", "cleaning"],
+    "rating": { "average": 4.9, "totalReviews": 621 },
+    "seller": { "id": "seller025", "name": "Dyson Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Kent RO Water Purifier",
+    "description": "Advanced RO+UV water purifier.",
+    "category": "Electronics",
+    "subCategory": "Water Purifiers",
+    "brand": "Kent",
+    "price": 18999,
+    "images": ["https://example.com/images/kent-ro.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["8L"],
+      "material": "Plastic",
+      "weight": "8kg"
+    },
+    "tags": ["water-purifier", "ro"],
+    "rating": { "average": 4.4, "totalReviews": 514 },
+    "seller": { "id": "seller026", "name": "Kent Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Voltas Air Cooler 60L",
+    "description": "High performance room cooler.",
+    "category": "Electronics",
+    "subCategory": "Air Coolers",
+    "brand": "Voltas",
+    "price": 9999,
+    "images": ["https://example.com/images/voltas-cooler.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["60L"],
+      "material": "Plastic",
+      "weight": "10kg"
+    },
+    "tags": ["cooler", "summer"],
+    "rating": { "average": 4.2, "totalReviews": 219 },
+    "seller": { "id": "seller027", "name": "Voltas Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Usha Pedestal Fan",
+    "description": "Adjustable height pedestal fan.",
+    "category": "Electronics",
+    "subCategory": "Fans",
+    "brand": "Usha",
+    "price": 3499,
+    "images": ["https://example.com/images/usha-fan.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["400mm"],
+      "material": "Metal",
+      "weight": "6kg"
+    },
+    "tags": ["fan", "pedestal-fan"],
+    "rating": { "average": 4.3, "totalReviews": 385 },
+    "seller": { "id": "seller028", "name": "Usha Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Panasonic Microwave Oven",
+    "description": "25L convection microwave oven.",
+    "category": "Electronics",
+    "subCategory": "Kitchen Appliances",
+    "brand": "Panasonic",
+    "price": 12499,
+    "images": ["https://example.com/images/panasonic-microwave.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["25L"],
+      "material": "Steel",
+      "weight": "14kg"
+    },
+    "tags": ["microwave", "kitchen"],
+    "rating": { "average": 4.5, "totalReviews": 612 },
+    "seller": { "id": "seller029", "name": "Panasonic Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Boat Stone 1200 Speaker",
+    "description": "Portable Bluetooth speaker with deep bass.",
+    "category": "Electronics",
+    "subCategory": "Speakers",
+    "brand": "Boat",
+    "price": 3999,
+    "images": ["https://example.com/images/boat-speaker.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["14W"],
+      "material": "Plastic",
+      "weight": "1kg"
+    },
+    "tags": ["speaker", "bluetooth"],
+    "rating": { "average": 4.4, "totalReviews": 1442 },
+    "seller": { "id": "seller030", "name": "Boat Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Apple AirPods Pro 2",
+    "description": "Premium wireless earbuds with active noise cancellation.",
+    "category": "Electronics",
+    "subCategory": "Mobile Accessories",
+    "brand": "Apple",
+    "price": 24999,
+    "images": ["https://example.com/images/airpods-pro-2.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["Standard"],
+      "material": "Plastic",
+      "weight": "61g"
+    },
+    "tags": ["earbuds", "wireless", "apple"],
+    "rating": { "average": 4.8, "totalReviews": 2345 },
+    "seller": { "id": "seller031", "name": "Apple Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Samsung 25W Fast Charger",
+    "description": "USB-C fast charging adapter.",
+    "category": "Electronics",
+    "subCategory": "Mobile Accessories",
+    "brand": "Samsung",
+    "price": 1499,
+    "images": ["https://example.com/images/samsung-charger.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["25W"],
+      "material": "Plastic",
+      "weight": "80g"
+    },
+    "tags": ["charger", "usb-c"],
+    "rating": { "average": 4.5, "totalReviews": 945 },
+    "seller": { "id": "seller032", "name": "Samsung Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Anker 20000mAh Power Bank",
+    "description": "High-capacity fast charging power bank.",
+    "category": "Electronics",
+    "subCategory": "Mobile Accessories",
+    "brand": "Anker",
+    "price": 3999,
+    "images": ["https://example.com/images/anker-powerbank.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["20000mAh"],
+      "material": "Plastic",
+      "weight": "350g"
+    },
+    "tags": ["powerbank", "battery"],
+    "rating": { "average": 4.7, "totalReviews": 1231 },
+    "seller": { "id": "seller033", "name": "Anker Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Spigen Rugged Armor Case",
+    "description": "Shockproof mobile phone case.",
+    "category": "Electronics",
+    "subCategory": "Mobile Accessories",
+    "brand": "Spigen",
+    "price": 999,
+    "images": ["https://example.com/images/spigen-case.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["iPhone 15 Pro"],
+      "material": "TPU",
+      "weight": "45g"
+    },
+    "tags": ["case", "protection"],
+    "rating": { "average": 4.6, "totalReviews": 845 },
+    "seller": { "id": "seller034", "name": "Spigen Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Logitech MX Master 3S",
+    "description": "Advanced wireless productivity mouse.",
+    "category": "Electronics",
+    "subCategory": "Computer Accessories",
+    "brand": "Logitech",
+    "price": 8999,
+    "images": ["https://example.com/images/mx-master-3s.jpg"],
+    "attributes": {
+      "color": ["Graphite"],
+      "size": ["Standard"],
+      "material": "Plastic",
+      "weight": "141g"
+    },
+    "tags": ["mouse", "wireless"],
+    "rating": { "average": 4.9, "totalReviews": 1567 },
+    "seller": { "id": "seller035", "name": "Logitech Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Logitech G Pro X Keyboard",
+    "description": "Mechanical gaming keyboard.",
+    "category": "Electronics",
+    "subCategory": "Computer Accessories",
+    "brand": "Logitech",
+    "price": 10999,
+    "images": ["https://example.com/images/gpro-keyboard.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["TKL"],
+      "material": "Aluminium",
+      "weight": "980g"
+    },
+    "tags": ["keyboard", "gaming"],
+    "rating": { "average": 4.7, "totalReviews": 792 },
+    "seller": { "id": "seller036", "name": "Logitech Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Dell USB-C Docking Station",
+    "description": "Multi-port docking station for laptops.",
+    "category": "Electronics",
+    "subCategory": "Laptop Accessories",
+    "brand": "Dell",
+    "price": 12999,
+    "images": ["https://example.com/images/dell-dock.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["Standard"],
+      "material": "Metal",
+      "weight": "450g"
+    },
+    "tags": ["dock", "usb-c"],
+    "rating": { "average": 4.5, "totalReviews": 423 },
+    "seller": { "id": "seller037", "name": "Dell Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "HP Laptop Backpack",
+    "description": "Water-resistant laptop backpack.",
+    "category": "Electronics",
+    "subCategory": "Laptop Accessories",
+    "brand": "HP",
+    "price": 1999,
+    "images": ["https://example.com/images/hp-backpack.jpg"],
+    "attributes": {
+      "color": ["Grey"],
+      "size": ["15.6 Inch"],
+      "material": "Polyester",
+      "weight": "700g"
+    },
+    "tags": ["backpack", "laptop-bag"],
+    "rating": { "average": 4.4, "totalReviews": 612 },
+    "seller": { "id": "seller038", "name": "HP Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Samsung T7 Portable SSD",
+    "description": "1TB high-speed portable SSD.",
+    "category": "Electronics",
+    "subCategory": "Storage Devices",
+    "brand": "Samsung",
+    "price": 7999,
+    "images": ["https://example.com/images/t7-ssd.jpg"],
+    "attributes": {
+      "color": ["Blue"],
+      "size": ["1TB"],
+      "material": "Metal",
+      "weight": "58g"
+    },
+    "tags": ["ssd", "storage"],
+    "rating": { "average": 4.8, "totalReviews": 1203 },
+    "seller": { "id": "seller039", "name": "Samsung Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "SanDisk Ultra 128GB Pendrive",
+    "description": "USB 3.0 high-speed flash drive.",
+    "category": "Electronics",
+    "subCategory": "Storage Devices",
+    "brand": "SanDisk",
+    "price": 999,
+    "images": ["https://example.com/images/sandisk-pendrive.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["128GB"],
+      "material": "Plastic",
+      "weight": "15g"
+    },
+    "tags": ["pendrive", "storage"],
+    "rating": { "average": 4.4, "totalReviews": 1876 },
+    "seller": { "id": "seller040", "name": "SanDisk Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Razer DeathAdder V3",
+    "description": "Professional gaming mouse.",
+    "category": "Electronics",
+    "subCategory": "Gaming Accessories",
+    "brand": "Razer",
+    "price": 5999,
+    "images": ["https://example.com/images/deathadder.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["Standard"],
+      "material": "Plastic",
+      "weight": "63g"
+    },
+    "tags": ["gaming", "mouse"],
+    "rating": { "average": 4.8, "totalReviews": 1112 },
+    "seller": { "id": "seller041", "name": "Razer Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "HyperX Cloud III Headset",
+    "description": "Gaming headset with surround sound.",
+    "category": "Electronics",
+    "subCategory": "Gaming Accessories",
+    "brand": "HyperX",
+    "price": 7999,
+    "images": ["https://example.com/images/cloud3.jpg"],
+    "attributes": {
+      "color": ["Black", "Red"],
+      "size": ["Standard"],
+      "material": "Aluminium",
+      "weight": "320g"
+    },
+    "tags": ["gaming", "headset"],
+    "rating": { "average": 4.7, "totalReviews": 654 },
+    "seller": { "id": "seller042", "name": "HyperX Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Apple Magic Keyboard",
+    "description": "Wireless keyboard for Mac devices.",
+    "category": "Electronics",
+    "subCategory": "Computer Accessories",
+    "brand": "Apple",
+    "price": 9499,
+    "images": ["https://example.com/images/magic-keyboard.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["Standard"],
+      "material": "Aluminium",
+      "weight": "390g"
+    },
+    "tags": ["keyboard", "apple"],
+    "rating": { "average": 4.6, "totalReviews": 543 },
+    "seller": { "id": "seller043", "name": "Apple Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Belkin 3-in-1 Wireless Charger",
+    "description": "Wireless charging station for phones and earbuds.",
+    "category": "Electronics",
+    "subCategory": "Mobile Accessories",
+    "brand": "Belkin",
+    "price": 6999,
+    "images": ["https://example.com/images/belkin-charger.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["15W"],
+      "material": "Plastic",
+      "weight": "280g"
+    },
+    "tags": ["charger", "wireless"],
+    "rating": { "average": 4.5, "totalReviews": 398 },
+    "seller": { "id": "seller044", "name": "Belkin Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "TP-Link Archer AX55 Router",
+    "description": "Wi-Fi 6 high-speed router.",
+    "category": "Electronics",
+    "subCategory": "Networking",
+    "brand": "TP-Link",
+    "price": 7499,
+    "images": ["https://example.com/images/tplink-router.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["AX3000"],
+      "material": "Plastic",
+      "weight": "850g"
+    },
+    "tags": ["router", "wifi6"],
+    "rating": { "average": 4.7, "totalReviews": 845 },
+    "seller": { "id": "seller045", "name": "TP-Link Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Cooler Master Laptop Cooling Pad",
+    "description": "Dual-fan cooling pad for gaming laptops.",
+    "category": "Electronics",
+    "subCategory": "Laptop Accessories",
+    "brand": "Cooler Master",
+    "price": 2499,
+    "images": ["https://example.com/images/cooling-pad.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["17 Inch"],
+      "material": "Metal Mesh",
+      "weight": "900g"
+    },
+    "tags": ["cooling-pad", "laptop"],
+    "rating": { "average": 4.3, "totalReviews": 532 },
+    "seller": { "id": "seller046", "name": "Cooler Master Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "WD My Passport 2TB HDD",
+    "description": "Portable external hard drive.",
+    "category": "Electronics",
+    "subCategory": "Storage Devices",
+    "brand": "Western Digital",
+    "price": 5999,
+    "images": ["https://example.com/images/wd-hdd.jpg"],
+    "attributes": {
+      "color": ["Blue"],
+      "size": ["2TB"],
+      "material": "Plastic",
+      "weight": "210g"
+    },
+    "tags": ["hdd", "storage"],
+    "rating": { "average": 4.5, "totalReviews": 1734 },
+    "seller": { "id": "seller047", "name": "WD Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "JBL Tune 770NC",
+    "description": "Wireless headphones with ANC.",
+    "category": "Electronics",
+    "subCategory": "Audio Accessories",
+    "brand": "JBL",
+    "price": 8999,
+    "images": ["https://example.com/images/jbl-770nc.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["Standard"],
+      "material": "Plastic",
+      "weight": "232g"
+    },
+    "tags": ["headphones", "anc"],
+    "rating": { "average": 4.6, "totalReviews": 987 },
+    "seller": { "id": "seller048", "name": "JBL Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Amazon Basics USB Hub",
+    "description": "4-port USB 3.0 hub.",
+    "category": "Electronics",
+    "subCategory": "Computer Accessories",
+    "brand": "Amazon Basics",
+    "price": 799,
+    "images": ["https://example.com/images/usb-hub.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["4 Port"],
+      "material": "Plastic",
+      "weight": "90g"
+    },
+    "tags": ["usb-hub", "accessory"],
+    "rating": { "average": 4.2, "totalReviews": 1254 },
+    "seller": { "id": "seller049", "name": "Amazon Basics" },
+    "isFeatured": false
+  },
+  {
+    "name": "Lenovo 65W USB-C Laptop Charger",
+    "description": "Original fast charger for laptops.",
+    "category": "Electronics",
+    "subCategory": "Laptop Accessories",
+    "brand": "Lenovo",
+    "price": 2999,
+    "images": ["https://example.com/images/lenovo-charger.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["65W"],
+      "material": "Plastic",
+      "weight": "250g"
+    },
+    "tags": ["charger", "laptop"],
+    "rating": { "average": 4.5, "totalReviews": 643 },
+    "seller": { "id": "seller050", "name": "Lenovo Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Apple MacBook Air M3",
+    "description": "13-inch ultralight laptop powered by Apple's M3 chip.",
+    "category": "Electronics",
+    "subCategory": "Laptops",
+    "brand": "Apple",
+    "price": 114900,
+    "images": ["https://example.com/images/macbook-air-m3.jpg"],
+    "attributes": {
+      "color": ["Midnight"],
+      "size": ["13.6 Inch"],
+      "material": "Aluminium",
+      "weight": "1.24kg"
+    },
+    "tags": ["macbook", "m3", "ultrabook"],
+    "rating": { "average": 4.9, "totalReviews": 1542 },
+    "seller": { "id": "seller051", "name": "Apple Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Dell XPS 15",
+    "description": "Premium Windows laptop with Intel Core i7 processor.",
+    "category": "Electronics",
+    "subCategory": "Laptops",
+    "brand": "Dell",
+    "price": 159999,
+    "images": ["https://example.com/images/dell-xps15.jpg"],
+    "attributes": {
+      "color": ["Silver"],
+      "size": ["15.6 Inch"],
+      "material": "Aluminium",
+      "weight": "1.9kg"
+    },
+    "tags": ["dell", "xps", "premium"],
+    "rating": { "average": 4.8, "totalReviews": 923 },
+    "seller": { "id": "seller052", "name": "Dell Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "HP Spectre x360",
+    "description": "Convertible 2-in-1 touchscreen laptop.",
+    "category": "Electronics",
+    "subCategory": "Laptops",
+    "brand": "HP",
+    "price": 129999,
+    "images": ["https://example.com/images/hp-spectre.jpg"],
+    "attributes": {
+      "color": ["Nightfall Black"],
+      "size": ["14 Inch"],
+      "material": "Aluminium",
+      "weight": "1.34kg"
+    },
+    "tags": ["hp", "touchscreen", "2-in-1"],
+    "rating": { "average": 4.7, "totalReviews": 642 },
+    "seller": { "id": "seller053", "name": "HP Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "description": "Business laptop with exceptional durability and battery life.",
+    "category": "Electronics",
+    "subCategory": "Laptops",
+    "brand": "Lenovo",
+    "price": 144999,
+    "images": ["https://example.com/images/thinkpad-x1.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["14 Inch"],
+      "material": "Carbon Fiber",
+      "weight": "1.12kg"
+    },
+    "tags": ["thinkpad", "business", "productivity"],
+    "rating": { "average": 4.8, "totalReviews": 853 },
+    "seller": { "id": "seller054", "name": "Lenovo Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "ASUS ROG Strix G16",
+    "description": "Gaming laptop with RTX graphics and high refresh display.",
+    "category": "Electronics",
+    "subCategory": "Laptops",
+    "brand": "ASUS",
+    "price": 139999,
+    "images": ["https://example.com/images/rog-g16.jpg"],
+    "attributes": {
+      "color": ["Eclipse Gray"],
+      "size": ["16 Inch"],
+      "material": "Plastic",
+      "weight": "2.5kg"
+    },
+    "tags": ["gaming", "rtx", "rog"],
+    "rating": { "average": 4.8, "totalReviews": 731 },
+    "seller": { "id": "seller055", "name": "ASUS Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Acer Predator Helios Neo 16",
+    "description": "Powerful gaming laptop for enthusiasts.",
+    "category": "Electronics",
+    "subCategory": "Laptops",
+    "brand": "Acer",
+    "price": 119999,
+    "images": ["https://example.com/images/predator-neo16.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["16 Inch"],
+      "material": "Plastic",
+      "weight": "2.6kg"
+    },
+    "tags": ["gaming", "predator", "rtx"],
+    "rating": { "average": 4.7, "totalReviews": 521 },
+    "seller": { "id": "seller056", "name": "Acer Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "MSI Katana 15",
+    "description": "Gaming laptop built for performance and multitasking.",
+    "category": "Electronics",
+    "subCategory": "Laptops",
+    "brand": "MSI",
+    "price": 104999,
+    "images": ["https://example.com/images/msi-katana15.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["15.6 Inch"],
+      "material": "Plastic",
+      "weight": "2.25kg"
+    },
+    "tags": ["gaming", "msi", "performance"],
+    "rating": { "average": 4.6, "totalReviews": 432 },
+    "seller": { "id": "seller057", "name": "MSI Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Samsung Galaxy Book4 Pro",
+    "description": "Thin and lightweight premium laptop.",
+    "category": "Electronics",
+    "subCategory": "Laptops",
+    "brand": "Samsung",
+    "price": 124999,
+    "images": ["https://example.com/images/galaxy-book4.jpg"],
+    "attributes": {
+      "color": ["Moonstone Gray"],
+      "size": ["14 Inch"],
+      "material": "Aluminium",
+      "weight": "1.23kg"
+    },
+    "tags": ["ultrabook", "samsung", "oled"],
+    "rating": { "average": 4.6, "totalReviews": 382 },
+    "seller": { "id": "seller058", "name": "Samsung Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "LG Gram 16",
+    "description": "Ultra-lightweight laptop with large display.",
+    "category": "Electronics",
+    "subCategory": "Laptops",
+    "brand": "LG",
+    "price": 134999,
+    "images": ["https://example.com/images/lg-gram16.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["16 Inch"],
+      "material": "Magnesium Alloy",
+      "weight": "1.19kg"
+    },
+    "tags": ["lightweight", "productivity", "lg"],
+    "rating": { "average": 4.7, "totalReviews": 451 },
+    "seller": { "id": "seller059", "name": "LG Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Lenovo IdeaPad Slim 5",
+    "description": "Affordable laptop for students and professionals.",
+    "category": "Electronics",
+    "subCategory": "Laptops",
+    "brand": "Lenovo",
+    "price": 64999,
+    "images": ["https://example.com/images/ideapad-slim5.jpg"],
+    "attributes": {
+      "color": ["Cloud Grey"],
+      "size": ["15.6 Inch"],
+      "material": "Aluminium",
+      "weight": "1.62kg"
+    },
+    "tags": ["student", "office", "budget"],
+    "rating": { "average": 4.5, "totalReviews": 1284 },
+    "seller": { "id": "seller060", "name": "Lenovo Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Sony PlayStation 5 Slim",
+    "description": "Next-generation gaming console with ultra-fast SSD and ray tracing support.",
+    "category": "Electronics",
+    "subCategory": "Gaming Consoles",
+    "brand": "Sony",
+    "price": 54990,
+    "images": ["https://example.com/images/ps5-slim.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["1TB"],
+      "material": "Plastic",
+      "weight": "3.2kg"
+    },
+    "tags": ["ps5", "playstation", "gaming"],
+    "rating": { "average": 4.9, "totalReviews": 4521 },
+    "seller": { "id": "seller061", "name": "Sony Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Sony PlayStation 5 Digital Edition",
+    "description": "Disc-free PS5 for digital game downloads.",
+    "category": "Electronics",
+    "subCategory": "Gaming Consoles",
+    "brand": "Sony",
+    "price": 44990,
+    "images": ["https://example.com/images/ps5-digital.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["1TB"],
+      "material": "Plastic",
+      "weight": "2.6kg"
+    },
+    "tags": ["ps5", "digital", "gaming"],
+    "rating": { "average": 4.8, "totalReviews": 3175 },
+    "seller": { "id": "seller062", "name": "Sony Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Microsoft Xbox Series X",
+    "description": "Powerful gaming console with 4K gaming and quick resume.",
+    "category": "Electronics",
+    "subCategory": "Gaming Consoles",
+    "brand": "Microsoft",
+    "price": 52990,
+    "images": ["https://example.com/images/xbox-series-x.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["1TB"],
+      "material": "Plastic",
+      "weight": "4.4kg"
+    },
+    "tags": ["xbox", "gaming", "4k"],
+    "rating": { "average": 4.8, "totalReviews": 2981 },
+    "seller": { "id": "seller063", "name": "Xbox Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Microsoft Xbox Series S",
+    "description": "Compact all-digital Xbox gaming console.",
+    "category": "Electronics",
+    "subCategory": "Gaming Consoles",
+    "brand": "Microsoft",
+    "price": 34990,
+    "images": ["https://example.com/images/xbox-series-s.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["512GB"],
+      "material": "Plastic",
+      "weight": "1.9kg"
+    },
+    "tags": ["xbox", "digital", "gaming"],
+    "rating": { "average": 4.7, "totalReviews": 2154 },
+    "seller": { "id": "seller064", "name": "Xbox Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Nintendo Switch OLED",
+    "description": "Portable and dockable gaming console with OLED display.",
+    "category": "Electronics",
+    "subCategory": "Gaming Consoles",
+    "brand": "Nintendo",
+    "price": 32999,
+    "images": ["https://example.com/images/nintendo-switch-oled.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["64GB"],
+      "material": "Plastic",
+      "weight": "420g"
+    },
+    "tags": ["nintendo", "switch", "portable"],
+    "rating": { "average": 4.8, "totalReviews": 4213 },
+    "seller": { "id": "seller065", "name": "Nintendo Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Nintendo Switch Lite",
+    "description": "Handheld-only Nintendo gaming console.",
+    "category": "Electronics",
+    "subCategory": "Gaming Consoles",
+    "brand": "Nintendo",
+    "price": 19999,
+    "images": ["https://example.com/images/switch-lite.jpg"],
+    "attributes": {
+      "color": ["Blue", "Yellow"],
+      "size": ["32GB"],
+      "material": "Plastic",
+      "weight": "275g"
+    },
+    "tags": ["nintendo", "portable", "gaming"],
+    "rating": { "average": 4.6, "totalReviews": 1874 },
+    "seller": { "id": "seller066", "name": "Nintendo Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Steam Deck OLED",
+    "description": "Portable gaming PC with SteamOS and OLED display.",
+    "category": "Electronics",
+    "subCategory": "Gaming Consoles",
+    "brand": "Valve",
+    "price": 54999,
+    "images": ["https://example.com/images/steam-deck-oled.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["512GB"],
+      "material": "Plastic",
+      "weight": "640g"
+    },
+    "tags": ["steam", "pc-gaming", "portable"],
+    "rating": { "average": 4.9, "totalReviews": 1452 },
+    "seller": { "id": "seller067", "name": "Steam Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "ASUS ROG Ally",
+    "description": "Windows-based handheld gaming console powered by AMD Ryzen Z1 Extreme.",
+    "category": "Electronics",
+    "subCategory": "Gaming Consoles",
+    "brand": "ASUS",
+    "price": 69999,
+    "images": ["https://example.com/images/rog-ally.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["512GB"],
+      "material": "Plastic",
+      "weight": "608g"
+    },
+    "tags": ["rog", "handheld", "gaming"],
+    "rating": { "average": 4.7, "totalReviews": 921 },
+    "seller": { "id": "seller068", "name": "ASUS Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Lenovo Legion Go",
+    "description": "Portable gaming device with detachable controllers.",
+    "category": "Electronics",
+    "subCategory": "Gaming Consoles",
+    "brand": "Lenovo",
+    "price": 74999,
+    "images": ["https://example.com/images/legion-go.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["1TB"],
+      "material": "Plastic",
+      "weight": "854g"
+    },
+    "tags": ["legion", "handheld", "gaming"],
+    "rating": { "average": 4.6, "totalReviews": 634 },
+    "seller": { "id": "seller069", "name": "Lenovo Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Meta Quest 3",
+    "description": "Standalone VR gaming headset with mixed reality support.",
+    "category": "Electronics",
+    "subCategory": "Gaming Consoles",
+    "brand": "Meta",
+    "price": 49999,
+    "images": ["https://example.com/images/meta-quest-3.jpg"],
+    "attributes": {
+      "color": ["White"],
+      "size": ["128GB"],
+      "material": "Plastic",
+      "weight": "515g"
+    },
+    "tags": ["vr", "meta", "gaming"],
+    "rating": { "average": 4.8, "totalReviews": 1785 },
+    "seller": { "id": "seller070", "name": "Meta Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Apple Watch Series 10",
+    "description": "Advanced smartwatch with health tracking and GPS.",
+    "category": "Electronics",
+    "subCategory": "Smart Watches",
+    "brand": "Apple",
+    "price": 49999,
+    "images": ["https://example.com/images/apple-watch-series10.jpg"],
+    "attributes": {
+      "color": ["Jet Black"],
+      "size": ["46mm"],
+      "material": "Aluminium",
+      "weight": "38g"
+    },
+    "tags": ["smartwatch", "fitness", "gps"],
+    "rating": { "average": 4.9, "totalReviews": 3254 },
+    "seller": { "id": "seller071", "name": "Apple Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Samsung Galaxy Watch 7",
+    "description": "Wear OS smartwatch with advanced fitness tracking.",
+    "category": "Electronics",
+    "subCategory": "Smart Watches",
+    "brand": "Samsung",
+    "price": 32999,
+    "images": ["https://example.com/images/galaxy-watch7.jpg"],
+    "attributes": {
+      "color": ["Silver"],
+      "size": ["44mm"],
+      "material": "Aluminium",
+      "weight": "33g"
+    },
+    "tags": ["smartwatch", "android", "fitness"],
+    "rating": { "average": 4.7, "totalReviews": 1864 },
+    "seller": { "id": "seller072", "name": "Samsung Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Garmin Forerunner 965",
+    "description": "Premium GPS smartwatch designed for runners.",
+    "category": "Electronics",
+    "subCategory": "Smart Watches",
+    "brand": "Garmin",
+    "price": 58999,
+    "images": ["https://example.com/images/garmin-965.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["47mm"],
+      "material": "Titanium",
+      "weight": "52g"
+    },
+    "tags": ["running", "gps", "sports"],
+    "rating": { "average": 4.8, "totalReviews": 954 },
+    "seller": { "id": "seller073", "name": "Garmin Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Fossil Gen 6 Wellness Edition",
+    "description": "Stylish smartwatch with Wear OS support.",
+    "category": "Electronics",
+    "subCategory": "Smart Watches",
+    "brand": "Fossil",
+    "price": 21999,
+    "images": ["https://example.com/images/fossil-gen6.jpg"],
+    "attributes": {
+      "color": ["Brown"],
+      "size": ["44mm"],
+      "material": "Stainless Steel",
+      "weight": "65g"
+    },
+    "tags": ["smartwatch", "fashion"],
+    "rating": { "average": 4.5, "totalReviews": 672 },
+    "seller": { "id": "seller074", "name": "Fossil Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Amazfit GTR 4",
+    "description": "Long battery life smartwatch with AMOLED display.",
+    "category": "Electronics",
+    "subCategory": "Smart Watches",
+    "brand": "Amazfit",
+    "price": 16999,
+    "images": ["https://example.com/images/amazfit-gtr4.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["46mm"],
+      "material": "Aluminium",
+      "weight": "34g"
+    },
+    "tags": ["smartwatch", "amoled"],
+    "rating": { "average": 4.6, "totalReviews": 821 },
+    "seller": { "id": "seller075", "name": "Amazfit Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Titan Edge Analog Watch",
+    "description": "Ultra-slim premium analog wrist watch.",
+    "category": "Fashion",
+    "subCategory": "Analog Watches",
+    "brand": "Titan",
+    "price": 8999,
+    "images": ["https://example.com/images/titan-edge.jpg"],
+    "attributes": {
+      "color": ["Silver"],
+      "size": ["40mm"],
+      "material": "Stainless Steel",
+      "weight": "85g"
+    },
+    "tags": ["analog", "formal"],
+    "rating": { "average": 4.7, "totalReviews": 743 },
+    "seller": { "id": "seller076", "name": "Titan Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Casio Enticer Analog Watch",
+    "description": "Classic analog watch suitable for everyday wear.",
+    "category": "Fashion",
+    "subCategory": "Analog Watches",
+    "brand": "Casio",
+    "price": 3999,
+    "images": ["https://example.com/images/casio-enticer.jpg"],
+    "attributes": {
+      "color": ["Black"],
+      "size": ["42mm"],
+      "material": "Stainless Steel",
+      "weight": "92g"
+    },
+    "tags": ["analog", "casio"],
+    "rating": { "average": 4.6, "totalReviews": 1234 },
+    "seller": { "id": "seller077", "name": "Casio Store" },
+    "isFeatured": false
+  },
+  {
+    "name": "Seiko 5 Sports Automatic",
+    "description": "Popular automatic mechanical watch with transparent case back.",
+    "category": "Fashion",
+    "subCategory": "Mechanical Watches",
+    "brand": "Seiko",
+    "price": 24999,
+    "images": ["https://example.com/images/seiko5.jpg"],
+    "attributes": {
+      "color": ["Blue"],
+      "size": ["42.5mm"],
+      "material": "Stainless Steel",
+      "weight": "170g"
+    },
+    "tags": ["mechanical", "automatic", "seiko"],
+    "rating": { "average": 4.9, "totalReviews": 891 },
+    "seller": { "id": "seller078", "name": "Seiko Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Tissot PRX Powermatic 80",
+    "description": "Luxury Swiss automatic mechanical watch.",
+    "category": "Fashion",
+    "subCategory": "Mechanical Watches",
+    "brand": "Tissot",
+    "price": 69999,
+    "images": ["https://example.com/images/tissot-prx.jpg"],
+    "attributes": {
+      "color": ["Green"],
+      "size": ["40mm"],
+      "material": "Stainless Steel",
+      "weight": "138g"
+    },
+    "tags": ["luxury", "swiss", "automatic"],
+    "rating": { "average": 4.9, "totalReviews": 512 },
+    "seller": { "id": "seller079", "name": "Tissot Store" },
+    "isFeatured": true
+  },
+  {
+    "name": "Orient Bambino Version 8",
+    "description": "Elegant Japanese automatic dress watch.",
+    "category": "Fashion",
+    "subCategory": "Mechanical Watches",
+    "brand": "Orient",
+    "price": 18999,
+    "images": ["https://example.com/images/orient-bambino.jpg"],
+    "attributes": {
+      "color": ["Cream"],
+      "size": ["40.5mm"],
+      "material": "Stainless Steel",
+      "weight": "115g"
+    },
+    "tags": ["dress-watch", "automatic", "mechanical"],
+    "rating": { "average": 4.8, "totalReviews": 684 },
+    "seller": { "id": "seller080", "name": "Orient Store" },
+    "isFeatured": false
+  }
+]
