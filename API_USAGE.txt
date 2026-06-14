@@ -1,0 +1,50 @@
+API Usage Guide
+
+Base endpoint:
+GET /api/products
+
+Query parameters supported:
+- brand: 
+- category
+- subCategory
+- color
+- nameive)
+- isFeatured
+- sort
+- select
+- page
+- limit
+
+Examples:
+1. Search products by brand and category:
+GET /api/products?brand=nike&category=shoes
+
+2. Find featured products in a category:
+GET /api/products?category=electronics&isFeatured=true
+
+3. Search by name and color:
+GET /api/products?name=shirt&color=blue
+
+4. Sort results by price ascending:
+GET /api/products?sort=price
+
+5. Sort by price descending and rating ascending:
+GET /api/products?sort=-price,rating
+
+6. Select only specific fields in the response:
+GET /api/products?select=name,price,brand
+
+7. Combine search, select, and sort:
+GET /api/products?brand=apple&select=name,price&sort=-price
+
+8. Pagination examples:
+GET /api/products?page=1&limit=10   (first page, 10 items)
+GET /api/products?page=2&limit=5    (second page, 5 items)
+
+9. Full example with all features:
+GET /api/products?brand=sony&category=electronics&sort=-price,name&select=name,price,brand,category&page=2&limit=5
+
+Notes:
+- Search filters use case-insensitive partial matching.
+- The sort and select parameters accept comma-separated field lists.
+- Pagination defaults to page=1 and limit=5 when not provided.
