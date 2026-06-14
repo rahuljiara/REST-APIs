@@ -6,7 +6,8 @@ exports.getProduct = async (req, res, next) => {
     /* Searching in database */
 
     // extract all fields from query
-    const { brand, isFeatured, category, subCategory, color, name, sort, select } = req.query;
+    const { brand, isFeatured, category, subCategory, color, name, sort, select} = req.query;
+    console.log(req.query);
 
     // Blank object to store the key and value to search
     const queryObject = {}
@@ -18,6 +19,7 @@ exports.getProduct = async (req, res, next) => {
 
     if (category) {
       queryObject.category = { $regex: category, $options: 'i' };
+      console.log(queryObject)
     }
 
     if (subCategory) {
@@ -31,7 +33,6 @@ exports.getProduct = async (req, res, next) => {
 
     if (color) {
       queryObject["attributes.color"] = { $regex: color, $options: 'i' };
-      console.log(queryObject);
     }
 
     if (name) {
@@ -59,35 +60,19 @@ exports.getProduct = async (req, res, next) => {
       apiData = apiData.select(fixSelect);
     }
 
+    let page = Number(req.query.page) || 1;
+    let limit = Number(req.query.limit) || 3;
+    let skip = (page - 1) * limit;
+
+    apiData = apiData.skip(skip).limit(limit);
+
+    
+
+
     // Geting all data from the database with matched query
     const products = await apiData;
     res.status(200).json({ products });
   } catch (error) {
-    res.status(500).json({
-      success: false,
-      message: error.message,
-    });
-  }
-}
-
-exports.getProductTesting = async (req, res, next) => {
-  try {
-    // Filtering method to get data base on key:value pair
-
-    /* 
-      const products = await ProductModel.find({
-      brand: "Apple",
-      subCategory: "Smart Watches"
-    });
-  
-    */
-    // sorting with .sort() method of mongoose ; 1-> ascendeing(asc), -1-> descending(desc)
-    // name -> sort in ascending order,  -name -> sort name in descending order
-
-    res.status(200).json({ products });
-
-  }
-  catch (error) {
     res.status(500).json({
       success: false,
       message: error.message,
